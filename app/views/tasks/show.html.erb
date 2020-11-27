@@ -1,0 +1,9 @@
+#app/views/tasks/show.html.erb
+
+<a href="/tasks">Task Index</a>
+<table>
+    <th>
+      <h1><%= @task.title %></h1>
+    <th>
+    <tr><%= @task.description %></tr>
+<a href="/tasks/<%= @task.id %>/edit">Edit</a>
